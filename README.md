@@ -1,2 +1,4 @@
-# currency-converter
-Thia is simple currency converter
+This is a simple currency converter
+
+
+
