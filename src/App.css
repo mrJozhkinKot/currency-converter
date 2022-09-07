@@ -1,3 +1,57 @@
-.App {
-  text-align: center;
-}
+:root {
+  --main-color: rgb(195, 11, 146);
+  --bg-color: rgba(255, 255, 255, 0.92);
+  --secondary-color:rgb(200, 83, 169);
+  --text-color: rgba(93, 90, 90, 0.872);
+  --secondary-text-color: #fff;
+ }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+ 
+ a {
+     text-decoration: none;
+     color: var(--secondary-color);
+     margin-right: 0.5rem;
+ }
+
+ 
+ i {
+     margin: 0 5px;
+ }
+ 
+ .active {
+  color: var(--secondary-text-color);
+ }
+ .root {
+     height: 100%;
+ }
+ 
+ .App {
+ height: 100vh;
+ display: flex;
+ flex-direction: column;
+ }
+ 
+ .main {
+     flex: 1 1 auto;
+ }
+ 
+ .header {
+ padding: 10px;
+ display: flex;
+ justify-content: end;
+ background-color: var(--main-color);
+ color: var(--secondary-text-color);
+ }
+ 
+ .footer {
+     padding: 3px 10px;
+     display: flex;
+     justify-content: end;
+     background-color: var(--main-color);
+     color: var(--secondary-text-color);
+     font-size: 0.8rem;
+ }
