@@ -75,6 +75,19 @@ input:focus {
     border-radius: 3px;
 }
 
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.about i {
+  color: var(--active-text-color);
+}
+
 .header {
   padding: 10px;
   display: flex;

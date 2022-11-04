@@ -11,11 +11,6 @@ const Main = () => {
   const [currencyIn, setCurrencyIn] = useState<string>('');
   const [currencyOut, setCurrencyOut] = useState<string>('');
 
-  const mockData = {
-   USD: 'Dollar USA',
-   EUR: 'Euro',
-   RUB: 'Russian Rubles',
-  }
 
   useEffect(() => {
     const cur: string[] = [];
